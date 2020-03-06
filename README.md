@@ -30,11 +30,9 @@
 
 - 距离的计算：取伪欧式（pseudo Euclidean）距离，计算方法如下（向上取整）：
 
-$$
-dist=\lceil{\sqrt{\frac{ {(X_1-X_2)}^2+{(Y_1-Y_2)}^2}{10} } }\rceil
-$$
+    ![](https://github.com/bipy/TSP-GA/blob/master/source/2.png)
 
-使用`unordered_map(C++17)`，内部实现为散列表，使得计算个体适应度可以达到$O(N)$级别的复杂度
+    使用`unordered_map(C++17)`，内部实现为散列表，使得计算个体适应度可以达到$O(N)$级别的复杂度
 
 - 随机数的生成：设置时间种子，并由此生成随机数
 
@@ -59,7 +57,7 @@ $$
 
 # 实验记录
 
-- 实验样本：ATT48@TSPLIB
+- 实验样本：ATT48@TSPLIB（`att48.tsp`）
 - 理论最优解：10628
 - 实验平台：CLion 2019.3（G++ 8.2.1 x64）
 

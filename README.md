@@ -32,7 +32,7 @@
 
     ![](https://github.com/bipy/TSP-GA/blob/master/source/2.png)
 
-    使用`unordered_map(C++17)`，内部实现为散列表，使得计算个体适应度可以达到$O(N)$级别的复杂度
+    使用`unordered_map(C++17)`，内部实现为散列表，使得计算个体适应度可以达到*O*(N)​级别的复杂度
 
 - 随机数的生成：设置时间种子，并由此生成随机数
 

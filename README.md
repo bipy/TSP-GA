@@ -32,7 +32,7 @@
 
     ![](https://github.com/bipy/TSP-GA/blob/master/source/2.png)
 
-    使用`unordered_map(C++17)`，内部实现为散列表，使得计算个体适应度可以达到*O*(N)​级别的复杂度
+    使用`unordered_map(C++11)`，内部实现为散列表，使得计算个体适应度可以达到*O*(N)​级别的复杂度
 
 - 随机数的生成：设置时间种子，并由此生成随机数
 
@@ -51,7 +51,7 @@
 - 自动调整变异算子
 - 自动调整变异率
 
-**关于参数选择及其他方面的详细讨论请见**[遗传算法解决TSP问题](https://zhengrh.com/blog/TSP_GA/).
+**关于参数选择及其他方面的详细讨论请见**[遗传算法解决TSP问题](https://blog.zhengrh.com/post/TSP_GA/).
 
 
 

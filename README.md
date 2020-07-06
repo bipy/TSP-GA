@@ -51,7 +51,7 @@
 - 自动调整变异算子
 - 自动调整变异率
 
-**关于参数选择及其他方面的详细讨论请见**[遗传算法解决TSP问题](https://blog.zhengrh.com/post/TSP_GA/).
+**关于参数选择及其他方面的详细讨论请见**[遗传算法解决TSP问题](https://blog.zhengrh.com/post/TSP-GA/).
 
 
 

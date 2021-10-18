@@ -2,7 +2,7 @@
 
 > 旅行商问题(Traveling Salesman Problem，TSP)是一个经典的组合优化问题。经典的TSP可以描述为：一个商品推销员要去若干个城市推销商品，该推销员从一个城市出发，需要经过所有城市后，回到出发地。应如何选择行进路线，以使总的行程最短。
 
-![](https://cdn.jsdelivr.net/gh/bipy/CDN/repo/TSP-GA/source/1.png)
+![](assets/1.png)
 
 在本文中使用的数据为来自TSPLIB的`ATT48`，即美国本土48个州首府坐标，TSPLIB的已知最优解为10628。
 
@@ -30,9 +30,9 @@
 
 - 距离的计算：取伪欧式（pseudo Euclidean）距离，计算方法如下（向上取整）：
 
-    ![](https://cdn.jsdelivr.net/gh/bipy/CDN/repo/TSP-GA/source/2.png)
+    ![](assets/2.png)
 
-    使用`unordered_map(C++11)`，内部实现为散列表，使得计算个体适应度可以达到*O*(N)​级别的复杂度
+    使用`unordered_map`，内部实现为散列表，使得计算个体适应度可以达到*O*(N)​级别的复杂度
 
 - 随机数的生成：设置时间种子，并由此生成随机数
 
@@ -51,7 +51,7 @@
 - 自动调整变异算子
 - 自动调整变异率
 
-**关于参数选择及其他方面的详细讨论请见**[遗传算法解决TSP问题](https://blog.zhengrh.com/post/TSP-GA/).
+**关于参数选择及其他方面的详细讨论请见**[遗传算法解决TSP问题](https://bipy.me/post/TSP-GA/).
 
 
 
